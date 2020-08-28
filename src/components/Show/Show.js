@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
 const Show = (props) => {
-    const { author, price, title, img } = props.course;
+    const { author , price, title, img } = props.course;
     return (
         <div className="float-left pl-4 pr-4 pb-3">
             {
